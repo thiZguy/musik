@@ -1,33 +1,94 @@
-.App {
+.app {
+  text-align: center;
+  height: -webkit-fill-available;
+}
+
+.muzik-logo {
+  background-color: #f92b5a;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+  color: white;
+  height: 50px;
+  align-content: center;
+  font-size: x-large;
+}
+
+.menu {
+  background-color: #292d3c;
+}
+
+.fill-height {
+  height: -webkit-fill-available;
+}
+
+.center-vert {
+  justify-items: center;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.list-group {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  margin-left: 30px;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.list-group-item {
+  position: relative;
+  display: block;
+  background-color: transparent;
+  border: 0px solid rgba(0,0,0,.125);
+}
+
+.list-group-item.active {
+  z-index: 2;
+  color: #fff;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.list-group-item.disabled, .list-group-item:disabled {
+  color: #6c757d;
   pointer-events: none;
+  background-color: transparent;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.list-group-item-action:focus, .list-group-item-action:hover {
+  color: #f92b5a;
+  text-decoration: none;
+}
+
+.music-label {
   color: white;
+  margin-right: 40px;
+  font-size: large;
+  font-weight: lighter;
 }
 
-.App-link {
+.music-songs-container {
+  align-content: center;
+  text-align: left;
+  background-color: #f2f2f4;
+  color: #8e8e8f;
+  height: 50px;
+}
+
+.grid-container {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  justify-items: center;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  overflow-y: hidden;
+}
+
+.app-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
