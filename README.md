@@ -2,7 +2,7 @@
 Template app that connects with the iTunes API and list the top artirts, the results can be filthered if the user selects a genre.
 
 ## assets
-![Image](https://imgur.com/a/r08DJQj)
+![Image](https://i.imgur.com/ibzAiul.png)
 
 ## setup
   1. Have react installed
