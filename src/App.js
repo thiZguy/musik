@@ -70,11 +70,6 @@ class App extends Component {
             <div className="col-12 center-vert">
               <div className="row">
                 <div className="col-12">
-                  <span className="music-label">MUSIC</span>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-12">
                   {
                     this.state.categories && this.state.categories.length>0 &&
                     <div className="list-group">

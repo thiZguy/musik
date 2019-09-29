@@ -1,6 +1,8 @@
 .app {
   text-align: center;
   height: -webkit-fill-available;
+  margin-left: -20px;
+  margin-right: 0px;
 }
 
 .muzik-logo {
